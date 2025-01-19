@@ -4,7 +4,7 @@ import axios from 'axios';
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState('');
-  // const coordinatesUrl = `http://api.openweathermap.org/geo/1.0/direct?q=miami&appid=cb4d274a4f203ea9e7ee8a31640064d7`;
+  // const coordinatesUrl = `http://api.openweathermap.org/geo/1.0/direct?q=miami&a`;
   
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&`;
 
