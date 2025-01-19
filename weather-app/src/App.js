@@ -6,7 +6,7 @@ function App() {
   const [location, setLocation] = useState('');
   // const coordinatesUrl = `http://api.openweathermap.org/geo/1.0/direct?q=miami&appid=cb4d274a4f203ea9e7ee8a31640064d7`;
   
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=cb4d274a4f203ea9e7ee8a31640064d7`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&`;
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
