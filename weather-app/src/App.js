@@ -6,7 +6,7 @@ function App() {
   const [location, setLocation] = useState('');
   // const coordinatesUrl = `http://api.openweathermap.org/geo/1.0/direct?q=miami&appid=${appId}`;
   
-  const appId = process.env.APP_ID;
+  const appId = process.env.REACT_APP_APP_ID;
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${appId}`;
 
