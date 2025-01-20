@@ -31,7 +31,7 @@ h1 {
   color: #fff;
 }
 
-.app:before {
+.app::before {
   content: '';
   background: url('./assets/miami-south-beach-sunrise-with-lifeguard-tower-usa.jpg') no-repeat center center/cover;
   position: absolute;
