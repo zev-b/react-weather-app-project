@@ -45,6 +45,7 @@ h1 {
 .app .search {
   text-align: center;
   padding: 1rem;
+  z-index: 1;
 }
 
 .app input {
